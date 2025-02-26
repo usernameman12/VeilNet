@@ -1,0 +1,23 @@
+/* public/css/apps.css */
+.app-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .app-list li {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .app-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .app-list li img {
+    width: 80px;
+    height: 80px;
+  }
+  

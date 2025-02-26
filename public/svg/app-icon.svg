@@ -1,0 +1,5 @@
+<!-- public/svg/app-icon.svg -->
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="24" height="24" fill="#333"/>
+  <line x1="8" y1="18" x2="32" y2="18" stroke="#fff" stroke-width="2"/>
+</svg>

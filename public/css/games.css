@@ -1,0 +1,23 @@
+/* public/css/games.css */
+.game-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .game-list li {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .game-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .game-list li img {
+    width: 80px;
+    height: 80px;
+  }
+  

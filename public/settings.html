@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VeilNet - Settings</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/settings.css">
+</head>
+<body>
+  <header>
+    <img src="/svg/logo.svg" alt="VeilNet Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/games.html">Games</a></li>
+        <li><a href="/apps.html">Apps</a></li>
+        <li><a href="/settings.html">Settings</a></li>
+        <li><a href="/proxy.html">Proxy</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Settings</h1>
+    <p>Customize your VeilNet experience:</p>
+    <form id="settings-form">
+      <label for="theme">Theme:</label>
+      <select id="theme" name="theme">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+      <br>
+      <label for="privacy">Privacy Mode:</label>
+      <input type="checkbox" id="privacy" name="privacy">
+      <br>
+      <button type="submit">Save Settings</button>
+    </form>
+  </main>
+  <script src="/js/settings.js"></script>
+</body>
+</html>

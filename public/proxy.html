@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VeilNet - Proxy</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <img src="/svg/logo.svg" alt="VeilNet Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/games.html">Games</a></li>
+        <li><a href="/apps.html">Apps</a></li>
+        <li><a href="/settings.html">Settings</a></li>
+        <li><a href="/proxy.html">Proxy</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Web Proxy</h1>
+    <form id="proxy-form" action="/api/proxy" method="GET" target="_blank">
+      <label for="url">Enter URL:</label>
+      <input type="text" id="url" name="url" placeholder="https://example.com">
+      <button type="submit">Go</button>
+    </form>
+  </main>
+  <script src="/js/proxy.js"></script>
+</body>
+</html>
