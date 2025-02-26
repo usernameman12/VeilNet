@@ -1,0 +1,35 @@
+aurora-gate/
+├── .gitignore
+├── CONTRIBUTING.md
+├── LICENSE.txt
+├── README.md
+├── index.html
+├── games.html
+├── apps.html
+├── settings.html
+├── gateway.html
+├── package.json
+├── vercel.json
+├── api/
+│   ├── fetch.js
+│   ├── helper.js
+│   ├── constants.js
+│   ├── errorHandler.js
+│   └── logger.js
+├── public/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── custom.css
+│   ├── js/
+│   │   ├── script.js
+│   │   └── extra.js
+│   └── images/
+│       └── logo.png
+├── components/
+│   ├── header.html
+│   ├── footer.html
+│   └── sidebar.html
+└── utils/
+    ├── util1.js
+    ├── util2.js
+    └── util3.js
