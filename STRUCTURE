@@ -1,35 +1,37 @@
-aurora-gate/
-├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE.txt
-├── README.md
-├── index.html
-├── games.html
-├── apps.html
-├── settings.html
-├── gateway.html
-├── package.json
-├── vercel.json
+VeilNet/
 ├── api/
-│   ├── fetch.js
-│   ├── helper.js
-│   ├── constants.js
-│   ├── errorHandler.js
-│   └── logger.js
+│   ├── proxy.js
+│   └── proxy-helper.js
 ├── public/
+│   ├── index.html
+│   ├── games.html
+│   ├── settings.html
+│   ├── apps.html
+│   ├── proxy.html
+│   ├── 404.html
 │   ├── css/
 │   │   ├── style.css
-│   │   └── custom.css
+│   │   ├── games.css
+│   │   ├── apps.css
+│   │   └── settings.css
 │   ├── js/
-│   │   ├── script.js
-│   │   └── extra.js
-│   └── images/
-│       └── logo.png
-├── components/
-│   ├── header.html
-│   ├── footer.html
-│   └── sidebar.html
-└── utils/
-    ├── util1.js
-    ├── util2.js
-    └── util3.js
+│   │   ├── main.js
+│   │   ├── games.js
+│   │   ├── apps.js
+│   │   ├── settings.js
+│   │   ├── nav.js
+│   │   └── proxy.js
+│   └── svg/
+│       ├── logo.svg
+│       ├── home-icon.svg
+│       ├── game-icon.svg
+│       ├── app-icon.svg
+│       ├── settings-icon.svg
+│       └── proxy-icon.svg
+├── utils/
+│   ├── proxyHelper.js
+│   └── logger.js
+├── package.json
+├── vercel.json
+├── README.md
+└── LICENSE
